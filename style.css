@@ -36,6 +36,7 @@ textarea {
     border: 1px solid #ccc;
     background-color: white;
 	justify-content:center;
+	font-family: 'Courier New', monospace;
 }
 
 /* Styling for buttons */
