@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+		<!-- Description -->
+		<div class="title">
+            <p>PUZZLESCRIPT LEVEL ROTATOR</p>
+        </div>
+		<div class="description">
+            <p>This tool was made for rotating/flipping levels of <a href="https://www.puzzlescript.net" target="_blank">puzzlescript</a> games. <br>
+			It should work on other (rectangular) texts may you find some use for it.</p>
+        </div>
+	
+        <!-- Buttons above the input -->
+		<div class="buttons-top">
+			<button id="rotateClockwise">Rotate Clockwise</button>
+			<button id="rotateCounterclockwise">Rotate Counterclockwise</button>
+			<button id="flipH">Flip Horizontally</button>
+			<button id="flipV">Flip Vertically</button>
+			<button id="transpose">Transpose</button>
+		</div>
+		
+		<textarea id="inputText" placeholder="Paste your level here. Non rectangular inputs might have unexpected results."></textarea>
+
+		<!-- Buttons below the output -->
+		<div class="buttons-bottom">
+			<button id="copyToClipboard">Copy to Clipboard</button>
+		</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
